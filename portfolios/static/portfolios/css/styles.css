@@ -1,0 +1,165 @@
+body {
+	background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(180deg, grey 50%, #131313 50%);
+  min-height: 1000px;
+  font-family: 'Poppins', 'helvetica neue';
+}
+
+/* Navbar */
+.navbar {
+	margin-left: 3%;
+}
+
+#brand {
+	transform: rotate(325deg);
+	font-size: 3vw;
+}
+
+.navbar-brand {
+	color: blue;
+	font-weight: bold;
+}
+
+.navbar-brand:hover {
+	color: white;
+}
+
+#nav-links {
+	color: white;
+}
+
+#nav-links:hover {
+	color: blue;
+}
+
+/* Main */
+.container-fluid {
+}
+
+.main-text {
+	margin-top: 25%;
+	font-size: 3vw;
+	text-align: left;
+	color: grey;
+}
+
+.main-text2 {
+	font-size: 4vw;
+	text-align: left;
+	margin-top: 2%;
+	color: white;
+}
+
+.main-paragraph {
+	font-size: 1.5vw;
+	margin-top: 2%;
+	color: white;
+}
+
+.main-btn {
+	width: 8vw;
+	font-size: 1vw;
+	height: 2vw;
+	text-align: center;
+	background-color: #001eff;
+	color: white;
+	border: none;
+	border-radius: 12px;
+	margin-bottom: 10%;
+}
+
+.main-btn:hover {
+	background-color: grey;
+	color: white;
+	border: none;
+	border-radius: 12px;
+}
+
+.desk-img {
+	width: 100%;
+	border-radius: 12px;
+}
+
+.icons {
+	text-align: center;
+	margin-top: 5%;
+	word-spacing: 50px;
+}
+
+/* About */
+.about-container {
+	width: 90vw;
+	border-radius: 12px;
+  height: 65vw;
+  background-color: white;
+  margin: 10% auto;
+}
+
+.about-subheader {
+	color: #001eff;
+	padding: 1%;
+	font-size: 1vw;
+	text-align: center;
+}
+
+.about-header {
+	padding: 3%;
+	text-align: center;
+	font-size: 3vw;
+}
+
+.about-paragraph {
+	text-align: center;
+	font-size: 2vw;
+}
+
+.about-container-fluid {
+	margin-top:  10%;
+	text-align: center;
+}
+
+.about-greeting {
+	font-size: 3vw;
+}
+
+.about-description {
+	padding: 50px;
+	font-size: 1vw;
+}
+
+.skills-container {
+	margin-top: 5%;
+}
+
+.react-icon {
+	animation: spin 5s infinite linear;
+}
+
+@keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+.about-skills {
+	font-size: 3vw;
+}
+
+@media (max-width: 1000px) {
+	.about-container {
+		height: 310vw;
+	}
+}
+
+.projects-header {
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	margin-bottom: 10%;
+}
+
+/* footer */
+.date {
+	text-align: center;
+	color: white;
+}
+
